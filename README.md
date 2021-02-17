@@ -7,9 +7,9 @@ You can ask new questions in [Issues](https://github.com/BrushXue/ME423-HelpDesk
 
 LaTeX in-line equation is supported on GitHub
 ```
-<img src="https://render.githubusercontent.com/render/math?math=\Large e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\large e^{i \pi} = -1">
 ```
-<img src="https://render.githubusercontent.com/render/math?math=\Large e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\large e^{i \pi} = -1">
 
 The format is
 
