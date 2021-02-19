@@ -1,9 +1,9 @@
 # ME423-HelpDesk
 ME423 Heat &amp; Mass Transfer Help Desk
 
-A lot of questions are in common. We hope they can be answered once and help everyone.
+A lot of questions are in common. We hope they can be answered once and help everyone. 
 
-You can ask new questions in [Issues](https://github.com/BrushXue/ME423-HelpDesk/issues). Before asking a question, please check if same one exists. All issues are **publicly** available. If you have any private question, please ask it in the office hour.
+Don't be shy to ask new questions in [Issues](https://github.com/BrushXue/ME423-HelpDesk/issues). Before asking a question, please check if same one exists. All issues are **publicly** available. If you have any private question, please ask it in the office hour.
 
 ## LaTeX
 LaTeX in-line equation is supported on GitHub
