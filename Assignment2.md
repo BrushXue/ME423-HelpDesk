@@ -24,7 +24,7 @@ b = np.zeros(N)
 # Assembling Matrix
 x = np.linalg.solve(A, B)
 ```
-To smartly use sparse matrix, you only need to do some changes
+To smartly use sparse matrix, you only need to do some changes in MATLAB
 ```MATLAB
 A = sparse(N,N);
 B = zeros(N,1);
