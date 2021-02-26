@@ -1,7 +1,5 @@
 # Sparse Matrix
-You may have heard sparse matrices in large scale problems. But is it far away from you? No.
-
-When solving numerical PDEs, sparse matrices are much [better](https://www.mathworks.com/help/matlab/math/computational-advantages-of-sparse-matrices.html).
+You may have heard sparse matrices in large scale problems. But is it far away from you? No. When solving numerical PDEs, sparse matrices are much [better](https://www.mathworks.com/help/matlab/math/computational-advantages-of-sparse-matrices.html).
 
 ## Visualization
 Let's visualize the coefficient matrix (47x47):
