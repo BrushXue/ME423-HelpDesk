@@ -6,7 +6,7 @@ A lot of questions are in common. We hope they can be answered once and help eve
 Don't be shy to raise new questions in [Issues](https://github.com/BrushXue/ME423-HelpDesk/issues). Before asking a question, please check if a similar one exists. All issues are **publicly** available. If you have any private question, please ask it in the office hour.
 
 ## [Assignment 2 Code Profiling](https://github.com/BrushXue/ME423-HelpDesk/blob/main/Assignment2.md)
-
+Learn how to use sparse matrices.
 
 ## LaTeX
 LaTeX in-line equation is supported on GitHub
