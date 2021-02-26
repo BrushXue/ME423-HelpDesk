@@ -51,4 +51,4 @@ Let's test the time consumed (in seconds) to solve the linear system.
 |	900x900 | 0.046 | 0.021 | 0.043 | 0.050 |
 |	9000x9000 | 12.294 | 0.331 | 11.055 | 0.513 |
 
-As mesh size increases, sparse matrices are significantly faster than dense matrices.
+As mesh size increases, sparse matrices are getting significantly faster than dense matrices.
