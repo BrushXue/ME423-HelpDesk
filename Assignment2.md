@@ -47,8 +47,8 @@ You don't have to change anything when assembling the matrix.
 Let's test the time consumed (in seconds) to solve the linear system.
 | Mesh Size | MATLAB Dense | MATLAB Sparse | Python Dense | Python Sparse|
 | --------- | ------------ | ------------- | ------------ | ------------ |
-| 90x90 | 0.012 | 0.012 | 0.002 | 0.008 |
-|	900x900 | 0.046 | 0.021 | 0.043 | 0.050 |
-|	9000x9000 | 12.294 | 0.331 | 11.055 | 0.513 |
+| 90 | 0.012 | 0.012 | 0.002 | 0.008 |
+|	900 | 0.046 | 0.021 | 0.043 | 0.050 |
+|	9000 | 12.294 | 0.331 | 11.055 | 0.513 |
 
 As mesh size increases, sparse matrices are getting significantly faster than dense matrices.
