@@ -2,7 +2,7 @@
 You may have heard sparse matrices in large scale problems. But is it far away from you? No! When solving numerical PDEs, sparse matrices are much [better](https://www.mathworks.com/help/matlab/math/computational-advantages-of-sparse-matrices.html).
 
 ## Visualization
-Let's visualize the coefficient matrix (47x47) using [spy()](https://www.mathworks.com/help/matlab/ref/spy.html):
+Let's visualize the coefficient matrix (in this case I pick 47x47 for demonstration) using [spy()](https://www.mathworks.com/help/matlab/ref/spy.html):
 ![sparsity](https://user-images.githubusercontent.com/12702149/109365270-c7d7ce00-785e-11eb-8a3b-0eea5ae73d61.png)
 It's almost tri-diagonal, except for boundaries & interfaces. The density is 143/47/47=6.5% which means 93.5% of the RAM is wasted. You can easily imagine that the total number of elements increases quadratically but the number of non-zero elements only increases linearly.
 
