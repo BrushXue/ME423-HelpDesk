@@ -18,7 +18,7 @@ or in Python
 ```Python
 import numpy as np
 A = np.zeros((N, N))
-b = np.zeros(N)
+B = np.zeros(N)
 # Assembling Matrix
 x = np.linalg.solve(A, B)
 ```
@@ -35,7 +35,7 @@ import numpy as np
 from scipy.sparse import lil_matrix
 from scipy.sparse.linalg import spsolve
 A = lil_matrix((N, N))
-b = np.zeros(N)
+B = np.zeros(N)
 # Assembling Matrix
 x = spsolve(A, B)
 ```
