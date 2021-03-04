@@ -31,7 +31,7 @@ You can create a 8x8 matrix for meshing. In my example I'm defining:
 
 4:= Y=1 ghost nodes.
 
-The reason to use ghost nodes, is to avoid conflict at four corner nodes. For example, without a ghost node, you can not make <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)"> satisfy both <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)=1"> and <img src="https://render.githubusercontent.com/render/math?math=\frac{d}{dx}\theta(1,1)=0">. With two extra neighbour ghost nodes, <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)"> can satisfy the heat equation as well as two boundary conditions at the same time.
+The reason to use ghost nodes, is to avoid conflict at four corner nodes. For example, without a ghost node, you can not make <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)"> satisfy both <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)=1"> and <img src="https://render.githubusercontent.com/render/math?math=\frac{d}{dx}\theta(1,1)=0"> (over-constraint). With two extra neighbour ghost nodes, <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)"> can satisfy the heat equation as well as two boundary conditions at the same time.
 
 ## Anonymous Function
 In order to assemble the coefficient matrix, the meshing matrix needs to be flattened. We need to know the **mapping** between the 8x8 matrix and the 1x64 array.
