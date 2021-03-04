@@ -53,7 +53,7 @@ For example in MATLAB:
 ```MATLAB
 A=sparse((N+3)^2); % Initialize sparse matrix
 B=zeros((N+3)^2,1);
-k=0; % Row number in the coefficient matrix)
+k=0; % Row number in the coefficient matrix
 for i=1:N+3
     for j=1:N+3 % Scan through all nodes
         k=k+1; % Next row
@@ -112,7 +112,7 @@ point_dict = {
     2: right,
     3: bottom,
     4: top}
-k=0 # Row number in the coefficient matrix)
+k=0 # Row number in the coefficient matrix
 for i in np.arange(N+3): 
     for j in np.arange(N+3): # Scan through all nodes
         point_dict.get(boundary[i,j])() # Return the type of the current node as we defined
