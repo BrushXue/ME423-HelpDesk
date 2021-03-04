@@ -1,7 +1,7 @@
-# Assembling Matrix in 2D Problems
+# Assembling Matrices in 2D Problems
 Again, let's visualize the **sparse** coefficient matrix first.
 ![hw3](https://user-images.githubusercontent.com/12702149/109912279-b553ff00-7c79-11eb-9f62-3cf76cc9383a.png)
-I only picked a 10x10 grid, and now we have a 100x100 sparse matrix. Obviously this matrix is not tri-diagonal like assignment 2 and you can't assemble this matrix manually. Therefore you have to write some code to automatically do this job for you. Hard coding (writing numbers explicitly in your functions) is NOT recommended, since you may have to make changes when debugging.
+I only picked a 10x10 grid, and now we have a 100x100 sparse matrix. Obviously this matrix is not tri-diagonal like assignment 2 and you can't assemble it manually. Therefore you have to write some code to automatically do this job for you. Hard coding (writing numbers explicitly in your functions) is NOT recommended, since you may have to make changes when debugging.
 
 ## Define mesh
 All below steps are demonstrated on a 10x10 grid. **You'll need much finer mesh in your homework**.
