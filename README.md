@@ -9,7 +9,7 @@ Don't be shy to raise new questions in [Issues](https://github.com/BrushXue/ME42
 Learn how to use sparse matrices.
 
 ## [Assignment 3 Code Profiling](https://github.com/BrushXue/ME423-HelpDesk/blob/main/Assignment3.md)
-Learn how to effectively assemble matrices in 2D problems.
+Learn how to assemble matrices effectively in 2D problems.
 
 ## LaTeX
 LaTeX in-line equation is supported on GitHub
