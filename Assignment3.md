@@ -31,7 +31,7 @@ Or in Python, [Lambda Expression](https://docs.python.org/3/reference/expression
 ```Python
 c=lambda i,j:i+(N+3)*j
 ```
-Given the i,j coordinate in the 8x8 matrix (N=5), c(i,j) returns the corresponding index in the 1x64 array.
+Given the i,j coordinate in the 8x8 matrix (N=5), c(i,j) returns the corresponding index in the 1x64 array. The mapping is not unique. You may choose any kind of mapping as long as it's bijection (one to one).
 
 ## Assembling Matrix
 Then we can start assembling the sparse coefficient matrix.
