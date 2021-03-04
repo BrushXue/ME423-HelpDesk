@@ -4,7 +4,7 @@ Again, let's visualize the **sparse** coefficient matrix first.
 I only picked a 8x8 grid, and now we have a 64x64 sparse matrix. Obviously this matrix is not tri-diagonal like assignment 2 and you can't assemble it manually. Therefore you have to write some code to automatically do this job for you. Hard coding (writing numbers explicitly in your functions) is NOT recommended, since you may have to make changes when debugging.
 
 ## Define mesh
-All below steps are demonstrated on a 8x8 grid(N=5). **You'll need much finer mesh in your homework**.
+All below steps are demonstrated on a 8x8 grid(N=5,h=0.2). **You'll need much finer mesh in your homework**.
 
 First we need to let computer know how does our mesh look like.
 ```
