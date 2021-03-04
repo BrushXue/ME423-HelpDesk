@@ -47,7 +47,7 @@ for i=1:N+3
         switch boundary(i,j) % Return the type of the current node as we defined
             case -1 % Empty node
                 A(k,c(i,j))=1;
-                B(k)=0; % Assign zero
+                B(k)=0; % Assign something, for matrix solving purpose
             case 0 % Internal node
                 A(k,c(i,j))=...; % Current node
                 A(k,c(i-1,j))=...; % Find its left node
@@ -76,7 +76,7 @@ A=lil_matrix(((N+3)**2,(N+3)**2)) # Initialize sparse matrix
 b=np.zeros((N+3)**2)
 def empty(): # Empty node
     A[k,c(i,j)]=1.0
-    b[k]=0.0 # Assign zero
+    b[k]=0.0 # Assign something, for matrix solving purpose
 def internal(): # Internal
     A[k,c(i,j)]=... # Current node
     A[k,c(i-1,j)]=... # Find its left node
