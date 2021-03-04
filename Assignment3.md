@@ -19,10 +19,10 @@ First we need to let computer know how does our mesh look like.
      3     0     0     0     0     0     0     0     0     4
      2     2     2     2     2     2     2     2     2     2
 ```
-You can create a 10x10 matrix for mesh. In my example I'm defining 0:= internal nodes, 1:= X=0 boundary, 2:= X=1 boundary, 3:= Y=0 boundary, 4:= Y=1 boundary.
+You can create a 10x10 matrix for meshing. In my example I'm defining 0:= internal nodes, 1:= X=0 boundary, 2:= X=1 boundary, 3:= Y=0 boundary, 4:= Y=1 boundary.
 
 ## Anonymous Function
-In order to assemble the coefficient matrix, the mesh matrix needs to be flattened. We need to know the **mapping** between the 10x10 matrix and the 1x100 array.
+In order to assemble the coefficient matrix, the meshing matrix needs to be flattened. We need to know the **mapping** between the 10x10 matrix and the 1x100 array.
 
 For convenience we're creating an [Anonymous Function](https://www.mathworks.com/help/matlab/matlab_prog/anonymous-functions.html)
 ```MATLAB
