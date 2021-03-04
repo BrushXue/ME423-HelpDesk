@@ -17,7 +17,20 @@ First we need to let computer know how does our mesh look like.
      3     0     0     0     0     0     0     4
     -1     2     2     2     2     2     2    -1
 ```
-You can create a 8x8 matrix for meshing. In my example I'm defining -1: empty nodes, 0:= internal nodes, 1:= X=0 ghost nodes, 2:= X=1 ghost nodes, 3:= Y=0 ghost nodes, 4:= Y=1 ghost nodes.
+You can create a 8x8 matrix for meshing. In my example I'm defining:
+
+-1: empty nodes
+
+0:= internal nodes
+
+1:= X=0 ghost nodes
+
+2:= X=1 ghost nodes
+
+3:= Y=0 ghost nodes
+
+4:= Y=1 ghost nodes.
+
 The reason to use ghost nodes, is to avoid conflict at four corner nodes. For example, without a ghost node, you can not make <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)"> satisfy both <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)=1"> and <img src="https://render.githubusercontent.com/render/math?math=\frac{d}{dx}\theta(1,1)=0">. With two extra neighbour ghost nodes, <img src="https://render.githubusercontent.com/render/math?math=\theta(1,1)"> can satisfy the heat equation as well as two boundary conditions at the same time.
 
 ## Anonymous Function
