@@ -8,7 +8,7 @@ Don't be shy to raise new questions in [Issues](https://github.com/BrushXue/ME42
 ## [Assignment 2 Code Profiling](https://github.com/BrushXue/ME423-HelpDesk/blob/main/Assignment2.md)
 Learn how to use sparse matrices.
 
-## [Assignment 3 Code Profiling(work in progress)]
+## [Assignment 3 Code Profiling](https://github.com/BrushXue/ME423-HelpDesk/blob/main/Assignment3.md)
 Learn how to effectively assemble matrices in 2D problems.
 
 ## LaTeX
