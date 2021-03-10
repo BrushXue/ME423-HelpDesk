@@ -8,14 +8,14 @@ All below steps are demonstrated on a 8x8 grid(N=5,h=0.2). **You'll need much fi
 
 First we need to let computer know what does our mesh look like.
 ```
-    -1     1     1     1     1     1     1    -1
-     3     0     0     0     0     0     0     4
-     3     0     0     0     0     0     0     4
-     3     0     0     0     0     0     0     4
-     3     0     0     0     0     0     0     4
-     3     0     0     0     0     0     0     4
-     3     0     0     0     0     0     0     4
-    -1     2     2     2     2     2     2    -1
+-1  1  1  1  1  1  1 -1
+ 3  0  0  0  0  0  0  4
+ 3  0  0  0  0  0  0  4
+ 3  0  0  0  0  0  0  4
+ 3  0  0  0  0  0  0  4
+ 3  0  0  0  0  0  0  4
+ 3  0  0  0  0  0  0  4
+-1  2  2  2  2  2  2 -1
 ```
 You can create a 8x8 matrix for meshing. In my example I'm defining:
 
