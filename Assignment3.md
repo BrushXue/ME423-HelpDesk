@@ -33,7 +33,7 @@ You can create a 8x8 matrix for meshing. In my example I'm defining:
 
 The reason to use ghost nodes, is to avoid conflict at four corner nodes. For example, without a ghost node, you can not make <img src="https://render.githubusercontent.com/render/math?math=\theta(0,0)"> satisfy both <img src="https://render.githubusercontent.com/render/math?math=\theta(0,0)=1"> and <img src="https://render.githubusercontent.com/render/math?math=\frac{d}{dx}\theta(0,0)=0"> (over-constraint). With two extra neighbour ghost nodes, <img src="https://render.githubusercontent.com/render/math?math=\theta(0,0)"> can satisfy the heat equation as well as two boundary conditions at the same time.
 
-If you insist to use the regular way, the meshing matrix (N=5) could be
+If you insist to use the regular approach, the meshing matrix (N=5) could be
 ```
 1,3  1  1  1  1  1,4
   3  0  0  0  0  4
