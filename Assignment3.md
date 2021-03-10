@@ -6,7 +6,7 @@ I only picked a 8x8 grid, and now we have a 64x64 sparse matrix. Obviously this 
 ## Define mesh
 All below steps are demonstrated on a 8x8 grid(N=5,h=0.2). **You'll need much finer mesh in your homework**.
 
-First we need to let computer know how does our mesh look like.
+First we need to let computer know what does our mesh look like.
 ```
     -1     1     1     1     1     1     1    -1
      3     0     0     0     0     0     0     4
