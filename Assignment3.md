@@ -57,7 +57,7 @@ k=0; % Row number in the coefficient matrix
 for i=1:N+3
     for j=1:N+3 % Scan through all nodes
         k=k+1; % Next row
-        switch boundary(i,j) % Return the type of the current node as we defined
+        switch your_mesh_matrix(i,j) % Return the type of the current node as we defined
             case -1 % Empty node
                 A(k,c(i,j))=1;
                 B(k)=0; % Assign something, for matrix solving purpose
@@ -115,7 +115,7 @@ point_dict = {
 k=0 # Row number in the coefficient matrix
 for i in np.arange(N+3): 
     for j in np.arange(N+3): # Scan through all nodes
-        point_dict.get(boundary[i,j])() # Return the type of the current node as we defined
+        point_dict.get(your_mesh_matrix[i,j])() # Return the type of the current node as we defined
         k+=1 # Next row
 x=spsolve(A,b) # Solve linear system
 sol=x.reshape((N+3,N+3)) # Restore solution from array to matrix
