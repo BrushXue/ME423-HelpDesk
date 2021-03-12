@@ -11,6 +11,9 @@ Learn how to use sparse matrices.
 ## [Assignment 3 Code Profiling](https://github.com/BrushXue/ME423-HelpDesk/blob/main/Assignment3.md)
 Learn how to assemble matrices effectively in 2D problems.
 
+## [Assignment 3 Q&A](https://github.com/BrushXue/ME423-HelpDesk/blob/main/Assignment3QA.md)
+A lot of questions were asked during the office hour...
+
 ## LaTeX
 LaTeX in-line equation is supported on GitHub
 ```
