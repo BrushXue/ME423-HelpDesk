@@ -11,7 +11,7 @@ You don't have to prove this part in your assignment. It's just for those who ar
 
 ## Physics explanation
 
-Adiabatic B.C. is applied on both sides so heat transfer is not supposed to happen along z-axis.
+Adiabatic B.C. is applied on both sides so heat transfer is not supposed to occur on z-axis.
 
 ## Mathematics explanation
 
