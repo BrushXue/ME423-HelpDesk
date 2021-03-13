@@ -1,4 +1,4 @@
-# What is the definition of H?
+## What is the definition of H?
 
 To avoid confusion, we're normalizing H based on the y-dimensional length, which means <img src="https://render.githubusercontent.com/render/math?math=H=\frac{Mb}{k}">
 
@@ -6,14 +6,14 @@ If you use <img src="https://render.githubusercontent.com/render/math?math=H=\fr
 
 This normalization applies to both question (a) and (b).
 
-# How to justify the removal of z-axis
+## How to justify the removal of z-axis
 You don't have to prove this part in your assignment. It's just for those who are curious.
 
-## Physics explanation
+### Physics explanation
 
 Adiabatic B.C. is applied on both sides so heat transfer is not supposed to occur on z-axis.
 
-## Mathematics explanation
+### Mathematics explanation
 
 The eigenfunction on z-axis (Neumann B.C. on two sides) is
 <img src="https://render.githubusercontent.com/render/math?math=C_0=1,\ C_n=\sqrt{2}\cos(n\pi z)">.
@@ -28,7 +28,7 @@ where f(y) is not related to z. We can take out z and get
 
 Therefore the only eigenfunction left is <img src="https://render.githubusercontent.com/render/math?math=C_0(z)=1">, the problem is reduced to 2D.
 
-# How to calculate eigenvalues
+## How to calculate eigenvalues
 The roots of the transcendental equation <img src="https://render.githubusercontent.com/render/math?math=\cot(x)-x/H=0"> has one root between <img src="https://render.githubusercontent.com/render/math?math=(0,\pi)">, another one between <img src="https://render.githubusercontent.com/render/math?math=(\pi,2\pi)">, etc. So we can calculate these eigenvalues in a for loop:
 ```MATLAB
 mu(n)=fzero(@(x)cot(x)-x/H,[(n-1)*pi+1e-6 n*pi-1e-6]);
