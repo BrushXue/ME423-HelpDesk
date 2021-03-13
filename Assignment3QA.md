@@ -18,7 +18,7 @@ Adiabatic B.C. is applied on both sides so heat transfer is not supposed to happ
 The eigenfunction on z-axis (Neumann B.C. on two sides) is
 <img src="https://render.githubusercontent.com/render/math?math=C_0=1,\ C_n=\sqrt{2}\cos(n\pi z)">.
 
-Assume the y-eigenfunction is B(y), consider the following integral
+Assume the y-axis eigenfunction is B(y), consider the following integral
 
 <img src="https://render.githubusercontent.com/render/math?math=A_{ij}(0)=\int_0^1\int_0^1 f(y) B_i(y)C_j(z)dydz">
 
@@ -26,7 +26,7 @@ where f(y) is not related to z. We can take out z and get
 
 <img src="https://render.githubusercontent.com/render/math?math=A_{ij}(0)=\int_0^1 f(y) B_i(y)dy\cdot \int_0^1\sqrt{2}\cos(j\pi z)dz=0,\ j\geq 1">
 
-Therefore the only eigenfunction left is <img src="https://render.githubusercontent.com/render/math?math=C_0(z)=1">, the problem is reduced to two-dimensional.
+Therefore the only eigenfunction left is <img src="https://render.githubusercontent.com/render/math?math=C_0(z)=1">, the problem is reduced to 2D.
 
 # How to calculate eigenvalues
 The roots of the transcendental equation <img src="https://render.githubusercontent.com/render/math?math=\cot(x)-x/H=0"> has one root between <img src="https://render.githubusercontent.com/render/math?math=(0,\pi)">, another one between <img src="https://render.githubusercontent.com/render/math?math=(\pi,2\pi)">, etc. So we can calculate these eigenvalues in a for loop:
