@@ -6,7 +6,7 @@ If you use <img src="https://render.githubusercontent.com/render/math?math=H=\fr
 
 This normalization applies to both question (a) and (b).
 
-# How justify the removal of z-axis
+# How to justify the removal of z-axis
 You don't have to prove this part in your assignment. It's just for those who are curious.
 
 ## Physics explanation
