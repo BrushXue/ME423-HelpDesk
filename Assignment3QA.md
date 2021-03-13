@@ -27,3 +27,13 @@ where f(y) is not related to z. We can take out z and get
 <img src="https://render.githubusercontent.com/render/math?math=A_{ij}(0)=\int_0^1 f(y) B_i(y)dy\cdot \int_0^1\sqrt{2}\cos(j\pi z)dz=0,\ j\geq 1">
 
 Therefore the only eigenfunction left is <img src="https://render.githubusercontent.com/render/math?math=C_0(z)=1">, the problem is reduced to two-dimensional.
+
+## How to calculate eigenvalues
+The roots of the transcedental equation <img src="https://render.githubusercontent.com/render/math?math=\cot(x)-x/H=0"> has one root between <img src="https://render.githubusercontent.com/render/math?math=(0,\pi)">, another one between <img src="https://render.githubusercontent.com/render/math?math=(\pi,2\pi)">, etc. So we can calculate these eigenvalues in a for loop:
+```MATLAB
+mu(n)=fzero(@(x)cot(x)-x/H,[(n-1)*pi+1e-6 n*pi-1e-6]);
+```
+```Python
+sol=optimize.root_scalar(robin,bracket=[n*np.pi+1e-6,(n+1)*np.pi-1e-6])
+mu[n]=sol.root
+```
