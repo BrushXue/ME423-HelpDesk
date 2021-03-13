@@ -28,7 +28,7 @@ where f(y) is not related to z. We can take out z and get
 
 Therefore the only eigenfunction left is <img src="https://render.githubusercontent.com/render/math?math=C_0(z)=1">, the problem is reduced to two-dimensional.
 
-## How to calculate eigenvalues
+# How to calculate eigenvalues
 The roots of the transcedental equation <img src="https://render.githubusercontent.com/render/math?math=\cot(x)-x/H=0"> has one root between <img src="https://render.githubusercontent.com/render/math?math=(0,\pi)">, another one between <img src="https://render.githubusercontent.com/render/math?math=(\pi,2\pi)">, etc. So we can calculate these eigenvalues in a for loop:
 ```MATLAB
 mu(n)=fzero(@(x)cot(x)-x/H,[(n-1)*pi+1e-6 n*pi-1e-6]);
