@@ -34,6 +34,7 @@ The roots of the transcendental equation <img src="https://render.githubusercont
 mu(n)=fzero(@(x)cot(x)-x/H,[(n-1)*pi+1e-6 n*pi-1e-6]);
 ```
 ```Python
+robin=lambda x:1.0/np.tan(x)-x/H
 sol=optimize.root_scalar(robin,bracket=[n*np.pi+1e-6,(n+1)*np.pi-1e-6])
 mu[n]=sol.root
 ```
